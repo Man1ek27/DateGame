@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#100b1b">
+<meta name="robots" content="noindex, nofollow">
+<title>Tinder Date ♥ Season 2</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='28' fill='%23ff4f7d'/%3E%3Ctext x='50' y='70' font-size='60' text-anchor='middle' fill='white'%3E♥%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="phone">
+  <div class="glow"></div><div class="glow2"></div>
+  <header>
+    <div class="logo"><span class="heart" aria-hidden="true">♥</span> TINDER DATE</div>
+    <span class="tag" id="tag">SEASON 2 ♥</span>
+  </header>
+  <div class="steps" id="steps" aria-label="Postęp"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+  <main id="main">
+
+  <!-- ============ INTRO ============ -->
+  <section class="screen" data-screen="intro">
+    <div class="eyebrow">💘 Tinder Date · nowy sezon</div>
+    <h1><span class="gradient">Season 2</span><br>Plot twist!</h1>
+    <p class="lead">Myślałaś, że to koniec gry? Ostatnio to Ty rozdawałaś karty. Teraz… <b>moja kolej</b>. 😏</p>
+    <div class="hero-card">
+      <div class="hero-top"><span>PREVIOUSLY ON TINDER DATE</span><div class="app-icons"><span></span><span></span><span></span></div></div>
+      <div class="hero-polaroids">
+        <figure class="mini-pol p1"><img src="assets/img/wieczor-3.jpg" alt=""></figure>
+        <figure class="mini-pol p2"><img src="assets/img/wieczor-1.jpg" alt=""></figure>
+        <figure class="mini-pol p3"><img src="assets/img/wieczor-2.jpg" alt=""></figure>
+        <div class="hero-badge">S2</div>
+      </div>
+      <div class="title-caption">8 leveli, jeden labirynt, antresola o 18:30… i wieczór, którego nie zapomnę.</div>
+    </div>
+    <button class="primary" data-go="match">Wejdź do aplikacji →</button>
+    <a class="subtle-link" id="season1-link" href="season1.html">↺ Zagraj jeszcze raz w Season 1</a>
+  </section>
+
+  <!-- ============ MATCH ============ -->
+  <section class="screen" data-screen="match">
+    <div class="eyebrow">🔔 Nowe powiadomienie</div>
+    <h1>It's a <span class="gradient">match…</span><br>znowu. 💘</h1>
+    <p class="lead">Ten sam match. Tylko lepszy. I z dużo większymi planami.</p>
+    <div class="match-wrap">
+      <div class="match-photos">
+        <div class="match-photo"><img src="assets/img/ania.jpg" alt="Ania"></div>
+        <div class="match-heart">♥</div>
+        <div class="match-photo"><img src="assets/img/mariusz-card.jpg" alt="Mariusz"></div>
+      </div>
+      <div class="match-names"><span>Ania</span><span>×</span><span>Mariusz</span></div>
+      <div class="match-sub">Match aktywny od <b>3 lat</b>. Status: nadal iskrzy. ✨</div>
+    </div>
+    <button class="primary" data-go="rules">Otwórz wiadomość →</button>
+  </section>
+
+  <!-- ============ RULES ============ -->
+  <section class="screen" data-screen="rules">
+    <div class="eyebrow">🎮 Season 2 / Zasady</div>
+    <h1>Tym razem <span class="gradient">grasz Ty.</span></h1>
+    <p class="lead">Role się odwróciły. Ja piszę wiadomości, Ty wybierasz. Każdy wybór dopisuje kolejny rozdział.</p>
+    <ul class="rules">
+      <li><b>01</b> Odpowiadaj szczerze — wyniki trafiają prosto do mnie. 📩</li>
+      <li><b>02</b> Niektóre poziomy kryją poszlaki. Czytaj uważnie. 👀</li>
+      <li><b>03</b> Postęp zapisuje się sam — możesz wrócić w każdej chwili.</li>
+      <li><b>♥</b> Na końcu czeka coś, na co trzeba się… spakować. 🧳</li>
+    </ul>
+    <button class="primary" data-go="l9unlock">Zaczynamy ♥</button>
+  </section>
+
+  <!-- ============ LEVEL 09 ============ -->
+  <section class="screen level-unlock" data-screen="l9unlock" data-lvl="09" data-unlock-tag="THE MORNING AFTER ☕" data-unlock-text="Dzień po randce. Ktoś nie może przestać o niej myśleć… 💭" data-next="l9chat" data-btn="Otwórz wiadomości →"></section>
+
+  <section class="screen" data-screen="l9chat">
+    <div class="eyebrow">💬 LEVEL 09 · The Morning After</div>
+    <div class="chat-head"></div>
+    <div class="chat-daystamp">Dzień po randce · 9:41</div>
+    <div class="chat" id="chat-morning"></div>
+    <div class="chat-choices" id="choices-morning" hidden></div>
+    <div class="chat-next" id="next-morning" hidden><button class="primary" data-go="memories">Zobacz wspomnienia 📸</button></div>
+  </section>
+
+  <section class="screen" data-screen="memories">
+    <div class="eyebrow">📸 LEVEL 09 · Wspomnienia</div>
+    <h1>Our <span class="gradient">night.</span></h1>
+    <p class="lead compact">Ty powiesiłaś nasze zdjęcia na sznurku. Ja dowieszam te. Dotknij, żeby powiększyć.</p>
+    <div class="string-wrap">
+      <svg class="string" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 8 Q200 58 400 8" fill="none" stroke="#e23b5a" stroke-width="2.5"/></svg>
+      <div class="polaroids" id="polaroids"></div>
+    </div>
+    <div class="thanks-card"><span>💌 Od Mariusza</span><p id="memories-thanks"></p></div>
+    <button class="primary" data-go="l10unlock">Ale czy Ty pamiętasz każdy detal? 👀</button>
+  </section>
+
+  <!-- ============ LEVEL 10 ============ -->
+  <section class="screen level-unlock" data-screen="l10unlock" data-lvl="10" data-unlock-tag="DETAIL DETECTIVE 🔍" data-unlock-text="Ostatnio sprawdzałaś, czy słucham.<br>Teraz ja sprawdzę, czy pamiętasz. 😏" data-next="l10intro" data-btn="Przyjmij wyzwanie →" data-variant="three"></section>
+
+  <section class="screen center" data-screen="l10intro">
+    <div class="eyebrow">🔍 LEVEL 10 · Memory check</div>
+    <div class="orb-visual"><div class="orb"><span>🔍</span></div><div class="orb-ring"></div><div class="orb-ring b"></div></div>
+    <div class="lvl-pill">REVERSE CARD 🔁</div>
+    <h1>DO YOU <span class="gradient">REMEMBER?</span></h1>
+    <p class="lead compact">Pytania o wieczór, który sama wymyśliłaś. Każda odpowiedź odsłania moją wiadomość. Organizatorka powinna znać odpowiedzi… prawda? 😏</p>
+    <div class="mini-rules"><div><b id="quiz-count">04</b><span id="quiz-count-label">pytania</span></div><div><b>💬</b><span>moje reakcje</span></div><div><b>♥</b><span>wynik na końcu</span></div></div>
+    <button class="primary" data-go="l10quiz">Pamiętam wszystko →</button>
+  </section>
+
+  <section class="screen" data-screen="l10quiz">
+    <div class="quiz-top"><span class="eyebrow">LEVEL 10 · DETAIL DETECTIVE</span><span class="quiz-serial" id="quiz-serial">01 / 08</span></div>
+    <div class="quiz-progress" id="quiz-progress"></div>
+    <div class="quiz-question">
+      <div class="quiz-sup" id="quiz-sup"></div>
+      <h2 id="quiz-q"></h2>
+    </div>
+    <div class="tiles" id="quiz-tiles" role="group" aria-label="Odpowiedzi"></div>
+    <div class="reaction" id="quiz-reaction" hidden aria-live="polite"></div>
+    <button class="primary" id="quiz-next" hidden>Dalej →</button>
+  </section>
+
+  <section class="screen center" data-screen="l10result">
+    <div class="eyebrow">✨ LEVEL 10 · Ukończony</div>
+    <div class="result-stars">✦ <span>♥</span> ✦</div>
+    <div class="lvl-pill">YOUR MEMORY REPORT</div>
+    <h1>HOW WELL DO YOU <span class="gradient">REMEMBER?</span></h1>
+    <div class="score-card">
+      <div class="score-label">TWÓJ WYNIK</div>
+      <div class="score-fraction"><span id="quiz-score">0</span><small id="quiz-total">/8</small></div>
+      <div class="score-track"><div id="quiz-fill"></div></div>
+      <div class="score-hearts" id="quiz-hearts"></div>
+    </div>
+    <div class="comment-card"><span>💬 MARIUSZ · DIAGNOZA</span><p id="quiz-comment"></p></div>
+    <button class="primary" data-go="l11unlock">Dalej… coś się szykuje 👀</button>
+    <button class="subtle-back" id="quiz-restart">↺ Spróbuj quizu jeszcze raz</button>
+  </section>
+
+  <!-- ============ LEVEL 11 ============ -->
+  <section class="screen level-unlock" data-screen="l11unlock" data-lvl="11" data-unlock-tag="BIRTHDAY TWIST 🎂" data-unlock-text="Ty przygotowałaś mi wieczór.<br>Teraz moja kolej, solenizantko. 😏" data-next="l11chat" data-btn="Otwórz rozmowę →"></section>
+
+  <section class="screen" data-screen="l11chat">
+    <div class="eyebrow">💬 LEVEL 11 · Birthday Twist</div>
+    <div class="chat-head"></div>
+    <div class="chat-daystamp">Dzisiaj · nowe wiadomości</div>
+    <div class="chat" id="chat-twist"></div>
+    <div class="chat-choices" id="choices-twist" hidden></div>
+    <div class="chat-next" id="next-twist" hidden><button class="primary" data-go="clues">Zdobądź poszlaki 🗝️</button></div>
+  </section>
+
+  <section class="screen" data-screen="clues">
+    <div class="eyebrow">🗝️ LEVEL 11 · How well do you know me?</div>
+    <h1>Poszlaki za <span class="gradient">dobre odpowiedzi.</span></h1>
+    <p class="lead compact">Każda poszlaka o wyjeździe jest zamknięta. Otworzy się tylko wtedy, gdy poprawnie odpowiesz na pytanie o mnie. Zła odpowiedź = kłódka zostaje. 🔒</p>
+    <div class="clue-quiz" id="clue-quiz" aria-live="polite"></div>
+    <div class="clues" id="clues"></div>
+    <div id="clues-done" hidden>
+      <div class="trip-card">
+        <div class="trip-kicker">♥ WYJAZD POTWIERDZONY</div>
+        <div class="trip-dates">27<span>.</span>11 <i>→</i> 30<span>.</span>11</div>
+        <div class="trip-rule"><span>✦</span></div>
+        <div class="trip-place">BESKIDY · 22. URODZINY 🎂</div>
+        <div class="trip-sub">3 NOCE · TYLKO MY · MIEJSCE ŚCIŚLE TAJNE</div>
+      </div>
+      <button class="primary" data-go="l12unlock">Co ja mam spakować?! 😱</button>
+    </div>
+  </section>
+
+  <!-- ============ LEVEL 12 ============ -->
+  <section class="screen level-unlock" data-screen="l12unlock" data-lvl="12" data-unlock-tag="PACK YOUR BAG 🧳" data-unlock-text="Ostatnio to Ty sprawdzałaś mój ekwipunek.<br>Teraz ja sprawdzam Twój. 👀" data-next="l12pack" data-btn="Otwórz walizkę →" data-variant="three"></section>
+
+  <section class="screen" data-screen="l12pack">
+    <div class="eyebrow">🧳 LEVEL 12 · Pack Your Bag</div>
+    <h1>PACK YOUR <span class="gradient">BAG!</span></h1>
+    <p class="lead compact">Góry, mróz i kilka niespodzianek. Zaznacz, co zabierasz. Ja oceniam. 😏</p>
+    <div class="live-chat">
+      <div class="live-head"><div class="avatar av-mariusz"><img src="assets/img/mariusz-avatar.jpg" alt=""></div><div><strong>Mariusz ❤️</strong><span class="online">● online</span></div></div>
+      <div class="live-bubble" id="pack-msg" aria-live="polite">Pakuj się mądrze. Patrzę. 👀</div>
+    </div>
+    <div class="pick-header"><span>CO ZABIERASZ?</span><span id="pack-count">Nic jeszcze nie zaznaczono</span></div>
+    <div class="pack-grid" id="pack-grid"></div>
+    <button class="primary" id="pack-approve">Zatwierdź walizkę →</button>
+  </section>
+
+  <section class="screen" data-screen="l12result">
+    <div class="eyebrow">✓ LEVEL 12 · Kontrola bagażu</div>
+    <h1>READY OR <span class="gradient">NOT?</span></h1>
+    <div class="live-chat">
+      <div class="live-head"><div class="avatar av-mariusz"><img src="assets/img/mariusz-avatar.jpg" alt=""></div><div><strong>Mariusz ❤️</strong><span class="online">● online</span></div></div>
+      <div class="live-bubble">Dobra, przejrzałem Twoją walizkę… 👀</div>
+      <div id="pack-notes"></div>
+    </div>
+    <div class="score-card">
+      <div class="score-label">WYNIK PAKOWANIA</div>
+      <div class="score-fraction"><span id="pack-score">0</span><small>/100</small></div>
+      <div class="score-track"><div id="pack-fill"></div></div>
+      <div class="score-title" id="pack-title"></div>
+      <div class="score-note" id="pack-note"></div>
+    </div>
+    <div class="system">📋 Spokojnie — niżej masz pełny poradnik z checklistą. Możesz do niego wracać aż do wyjazdu.</div>
+    <button class="primary" data-go="guide">Otwórz poradnik pakowania 📋</button>
+    <button class="subtle-back" data-go="l12pack">← Popraw walizkę</button>
+  </section>
+
+  <section class="screen" data-screen="guide">
+    <div class="eyebrow">📋 Poradnik · Co spakować</div>
+    <h1>THE <span class="gradient">PACKING LIST</span></h1>
+    <p class="lead compact">Odhaczaj podczas pakowania — zapamiętam postęp na tym telefonie. Pod koniec listopada w Beskidach może być mroźno i śnieżnie. ❄️</p>
+    <div class="guide-progress"><div><span id="guide-count">0 / 0</span> spakowane</div><div class="score-track"><div id="guide-fill"></div></div></div>
+    <div id="guide-list"></div>
+    <div class="info-card">
+      <div class="info-title" id="tips-title"></div>
+      <ul id="tips"></ul>
+    </div>
+    <div class="info-card mine">
+      <div class="info-title">😎 Moja działka (nic nie musisz)</div>
+      <ul id="my-part"></ul>
+    </div>
+    <button class="primary" id="guide-continue" data-go="l13unlock">Dalej: zaplanuj weekend →</button>
+  </section>
+
+  <!-- ============ LEVEL 13 ============ -->
+  <section class="screen level-unlock" data-screen="l13unlock" data-lvl="13" data-unlock-tag="SWIPE YOUR WEEKEND 💘" data-unlock-text="Znasz zasady Tindera.<br>Tym razem swipe'ujesz atrakcje. 😏" data-next="l13swipe" data-btn="Zacznij swipe'ować →"></section>
+
+  <section class="screen" data-screen="l13swipe">
+    <div class="eyebrow">💘 LEVEL 13 · Swipe Your Weekend</div>
+    <div class="swipe-top"><h2>Co robimy?</h2><span id="deck-count"></span></div>
+    <p class="hint-line">← nie · w prawo → chcę · ★ <b>super like</b> = musimy!</p>
+    <div class="deck" id="deck"></div>
+    <div class="deck-actions">
+      <button class="round nope" data-swipe="nope" aria-label="Nie">✕</button>
+      <button class="round undo" id="deck-undo" aria-label="Cofnij">↺</button>
+      <button class="round super" data-swipe="super" aria-label="Super like">★</button>
+      <button class="round like" data-swipe="like" aria-label="Chcę">♥</button>
+    </div>
+  </section>
+
+  <section class="screen" data-screen="l13matches">
+    <div class="eyebrow">✨ LEVEL 13 · Twoje matche</div>
+    <h1>It's a <span class="gradient">plan!</span> 💘</h1>
+    <p class="lead compact" id="matches-lead"></p>
+    <div class="matches" id="matches"></div>
+    <button class="primary" data-go="l14unlock">Dalej →</button>
+    <button class="subtle-back" id="deck-restart">↺ Swipe'uj od nowa</button>
+  </section>
+
+  <!-- ============ LEVEL 14 ============ -->
+  <section class="screen level-unlock" data-screen="l14unlock" data-lvl="14" data-unlock-tag="YOUR WISHES ✨" data-unlock-text="Kilka pytań, żebym wszystko przygotował idealnie.<br>Odpowiedzi znam tylko ja. 🤫" data-next="l14prefs" data-btn="Zaczynamy →" data-variant="three"></section>
+
+  <section class="screen" data-screen="l14prefs">
+    <div class="quiz-top"><span class="eyebrow">LEVEL 14 · YOUR WISHES</span><span class="quiz-serial" id="pref-serial"></span></div>
+    <div class="quiz-progress" id="pref-progress"></div>
+    <div id="pref-body"></div>
+    <div class="quiz-actions"><button class="quiz-back" id="pref-back">← Wstecz</button><button class="primary" id="pref-next" disabled>Dalej →</button></div>
+  </section>
+
+  <!-- ============ LEVEL 15 ============ -->
+  <section class="screen" data-screen="send">
+    <div class="eyebrow">📩 LEVEL 15 · Wyślij do Mariusza</div>
+    <h1>SEND <span class="gradient">IT.</span></h1>
+    <p class="lead compact">Tak wygląda Twój weekend. Jedno kliknięcie i wszystko ląduje u mnie.</p>
+    <div class="summary" id="summary"></div>
+    <div class="send-status" id="send-status" aria-live="polite" hidden></div>
+    <button class="primary" id="send-btn">Wyślij do Mariusza 💌</button>
+    <div class="fallback" id="send-fallback" hidden>
+      <a class="primary ghosty" id="mailto-link" href="#">Wyślij mailem ✉️</a>
+      <button class="subtle-back" id="copy-btn">📋 Skopiuj odpowiedzi</button>
+    </div>
+    <button class="subtle-back" data-go="l14prefs">← Zmień odpowiedzi</button>
+  </section>
+
+  <!-- ============ FINAŁ ============ -->
+  <section class="screen" data-screen="finalchat">
+    <div class="eyebrow">💌 TINDER DATE · Season 2 · Finał</div>
+    <div class="chat-head"></div>
+    <div class="chat" id="chat-final"></div>
+    <div class="chat-next" id="next-final" hidden><button class="primary" data-go="finale">Zakończ sezon ♥</button></div>
+  </section>
+
+  <section class="screen center final-screen" data-screen="finale">
+    <div class="eyebrow">💘 SEASON 2 · TO BE CONTINUED…</div>
+    <div class="final-sparkles" aria-hidden="true">
+      <div class="final-orbit"></div><div class="final-orbit second"></div>
+      <span class="spark one">✦</span><span class="spark two">✧</span><span class="spark three">✧</span><span class="spark four">✦</span>
+      <span class="final-heart">🎂</span>
+    </div>
+    <div class="final-kicker">IT'S A BIRTHDAY TRIP</div>
+    <h1>PACK YOUR BAG,<br><span class="gradient">BIRTHDAY GIRL</span></h1>
+    <div class="trip-card">
+      <div class="trip-kicker">♥ DO WYJAZDU ZOSTAŁO</div>
+      <div class="countdown" id="countdown"></div>
+      <div class="trip-rule"><span>✦</span></div>
+      <div class="trip-place">PT 27.11 → PN 30.11</div>
+      <div class="trip-sub">BESKIDY · MIEJSCE ŚCIŚLE TAJNE · TYLKO MY</div>
+    </div>
+    <p class="final-text">Ostatnio napisałaś: „Odłóż telefon. Najlepsza część tej historii wydarzy się już poza ekranem.”<br>Miałaś rację. Tym razem też tak będzie. ❤️</p>
+    <button class="primary" data-go="guide">Lista pakowania 📋</button>
+    <div class="final-signature">ONE MATCH. THREE YEARS. TWENTY-TWO CANDLES. ♥</div>
+    <button class="subtle-back" id="replay">Zagraj od początku ↻</button>
+  </section>
+
+  </main>
+
+  <div class="footer">
+    <span class="pill"><span class="dot"></span> NASZA HISTORIA ♥</span>
+    <div class="footer-actions">
+      <button class="ghost" id="guide-shortcut" hidden>🧳 Lista</button>
+      <button class="ghost" id="reset">Od nowa ↻</button>
+    </div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox" hidden><img alt=""><p></p><button aria-label="Zamknij">✕</button></div>
+<div class="toast" id="toast" hidden></div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
